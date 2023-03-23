@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js"></script>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- <link href="leaflet.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <section>
+      <div class="left">
+        <h1>Location</h1>
+        <div class="dropdownsearch">
+          <div class="options">
+            <select name="" id="selectCountry"></select>
+          </div>
+        </div>
+        <div id="map">
+          <script src="script.js"></script>
+        </div>
+
+        <div class="flickr">
+          <h2>Search Terms</h2>
+          <input type="search" name="search" id="search" />
+
+          <br />
+          <script src="flickr.js"></script>
+          <button id="submit" onclick="JavaScriptFetch()" value="loading">
+            Find Images
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <ul id="outputDiv">
+          Images will appear here
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

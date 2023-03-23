@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+.left{
+    margin-top: 5px;
+    margin-left: 25px;
+    position: absolute;
+    left: 0;
+    width: 300px;
+    padding: 10px;
+}
+
+
+h1,h2,p{
+    color: white;
+}
+#map{
+    height: 200px;
+    max-width: 980px;
+    margin-top: 15px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.container{
+    position: absolute;
+    right: 0px;
+    margin-right: 65px;
+    margin-top: 15px;
+    width: 800px;
+    border: 3px;
+    background-color: white;
+    height: 500px;
+    padding: 10px;
+}
+
+#submit{
+    margin-top: 15px;
+
+}
+#outputDiv{
+    border-radius: 50px;
+}
+#outputDiv img{
+    vertical-align: middle;
+    min-width: 111px;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 115px;
+    border: 2px solid rgb(204, 204, 204);
+    min-height: 139px;
+    border-radius: 10px;
+    min-height: 130px;
+    background: rgb(237, 239, 240);
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+
